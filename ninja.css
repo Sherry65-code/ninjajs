@@ -1,0 +1,39 @@
+#alert{
+    max-width: 400px;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    bottom: 30%;
+    top: 30%;
+    background-color: #080808be;
+    z-index: 20;
+    border-radius: 30px;
+    font-family: 'mukta';
+    color: white;
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    display: grid;
+    grid-template-rows: 20% 60% 20%;
+    box-shadow: 0px 0px 20px 0px black;
+    transform: scale(0);
+}
+#submit{
+    background-color: #483f55;
+    color: white;
+    font-family: 'mukta';
+    border: none;
+    border-radius: 30px;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+#head{
+    font-size: 30px;
+    font-weight: 600;
+}
+#message{
+    font-size: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
