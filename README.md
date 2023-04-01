@@ -2,7 +2,7 @@
 
 ## Import in your project using - 
 ```html
-  <script src='https://raw.githubusercontent.com/Sherry65-code/ninjajs/main/ninja.js' type='text/javascript'>
+  <script src='https://raw.githubusercontent.com/Sherry65-code/ninjajs/main/ninja.js' type='text/javascript'></script>
 ```
 - Functions
   - `AlertInit()` Takes no arguments and initializes the script
